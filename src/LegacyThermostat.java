@@ -4,8 +4,9 @@ public class LegacyThermostat {
 
     public void rotateDial(String position) {
         this.dialPosition = position;
-        public String checkDial () {
-            return this.dialPosition;
-        }
+    }
+
+    public String checkDial() {
+        return this.dialPosition;
     }
 }
